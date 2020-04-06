@@ -1,0 +1,59 @@
+.overview-graph-bar {
+
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+
+}
+
+.overview-graph {
+    margin: 0 10px 0 10px;
+    width: calc(50% - 20px);
+    min-width: 260px;
+    height: 85%;
+    min-height: 420px;
+    max-height: 700px;
+}
+
+.overview-graph-header {
+    min-height: 270px;
+    height: 70%;
+}
+
+.overview-graph-footer-text {
+    font-size: 15px;
+}
+
+.ct-chart {
+    background: #1D2933;
+    height: 90%;
+    min-height: 250px;
+    max-height: 325px;
+}
+
+.ct-series-a .ct-line {
+    /* Set the colour of this series line */
+    stroke: white;
+    /* Control the thikness of your lines */
+    stroke-width: 5px;
+}
+
+.ct-series-a .ct-point {
+    /* Colour of your points */
+    stroke: red;
+    /* Size of your points */
+    stroke-width: 10px;
+    /* Make your points appear as squares */
+}
+
+.ct-grids line {
+    stroke: white;
+}
+
+.ct-labels span {
+    color: white;
+}

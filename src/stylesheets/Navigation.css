@@ -1,0 +1,119 @@
+
+.navigation-wrapper {
+    width: 10%;
+    height: 100%;
+    min-width: 200px;
+    background: #1D2933;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid white;
+}
+
+.navigation-wrapper-hidden {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    background: #1D2933;
+    border-right: 1px solid white;
+}
+
+.navigation-title {
+    margin: 0 auto;
+    color: white;
+    font-size: 24px;
+    font-family: Roboto, serif;
+}
+
+hr {
+    color: white;
+    width: 80%;
+    margin: 10px auto;
+    opacity: .5;
+}
+
+.navigation-header {
+    margin-top: 15px;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+}
+
+.navigation-pill-container {
+    width: 70%;
+    height: 88%;
+    margin: 20px auto 0 auto;
+}
+
+.navigation-pill-wrapper {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    font-size: 17px;
+    color: #8f9997;
+}
+
+.navigation-pill-wrapper:hover {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    font-size: 19px;
+    color: #009999;
+}
+
+.navigation-pill-wrapper-active {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    font-size: 17px;
+    color: #009999;
+}
+
+.navigation-pill-icon {
+    font-size: 30px;
+    color: inherit;
+}
+
+.navigation-pill-wrapper p {
+    font-size: inherit;
+    line-height: 30px;
+    margin-left: 10px;
+    color: white;
+}
+
+.navigation-pill-wrapper-active p {
+    font-size: inherit;
+    line-height: 30px;
+    margin-left: 10px;
+    color: white;
+}
+
+.collapse-container {
+    height: calc(2% + 45px);
+    text-align: center;
+    color: white;
+}
+
+.collapse-container-hidden {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.navigation-ninety-rotation-title {
+    letter-spacing: 8px;
+    margin-top: 160px;
+    transform: rotate(270deg);
+    width: 45px;
+}
+
+p {
+    font-family: Roboto, serif;
+}

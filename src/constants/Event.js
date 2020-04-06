@@ -1,0 +1,12 @@
+
+const ConstantsEvent = {
+
+    ACCOUNT_CONTROL: "ACCOUNT_CONTROL",
+    INSTANCE_CONTROL: "INSTANCE_CONTROL",
+    SCRIPT_CONTROL: "SCRIPT_CONTROL",
+    INITIAL_SYNC: "INITIAL_SYNC",
+    SCREENSHOT: "SCREENSHOT",
+
+};
+
+export default ConstantsEvent;

@@ -1,0 +1,32 @@
+
+.instance-manager {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.instance-manager-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.instance-manager-card {
+    margin: 0 10px;
+    width: calc(50% - 40px);
+    min-width: 250px;
+}
+
+.instance-manager-card-header {
+    text-align: center;
+}
+
+.instance-manager-card-body {
+    margin: 15px;
+    border-radius: 5px;
+    color: white;
+    overflow-y: auto;
+    font-size: 14px;
+    text-align: center;
+}

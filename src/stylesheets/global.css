@@ -1,0 +1,68 @@
+
+/* 100% all the way down to app-wrapper. Necessary for proper responsiveness */
+html, body, #root, .app-wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* Make all div's border-box to keep sizing more accurate */
+div {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+}
+
+/* Main div for the application. index.js */
+.app-wrapper {
+    background-color: #16191c;
+    display: flex;
+}
+
+/* Page content class. Does not include nav */
+.screen {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow-y: auto;
+    border-right: 1px solid silver;
+    border-top: 1px solid silver;
+    border-bottom: 1px solid silver;
+}
+
+/* Nav takes up 10% of screen space horizontally */
+.screen-nav-open {
+    width: 90%;
+}
+
+/* Full screen without Nav */
+.screen-nav-collapsed {
+    width: 100%;
+}
+
+/* Remove margins from all p tags */
+p {
+    margin: 0 0;
+}
+
+/* Edge fallback for space-evenly since it is only supported in grid */
+@supports (-ms-accelerator: true) {
+    .space-evenly {
+        justify-content: space-around;
+    }
+}

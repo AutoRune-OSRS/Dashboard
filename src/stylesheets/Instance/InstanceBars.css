@@ -1,0 +1,79 @@
+.instance-control-bar {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.instance-control-bar-button {
+    padding: 0 8px;
+    color: #979797;
+    font-size: 16px;
+    font-family: roboto, serif;
+    text-shadow: 0 1px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    height: 40px;
+    border: 1px solid white;
+    background-color: #1D2933;
+    margin: 10px 30px;
+    width: 250px;
+    min-width: 200px;
+}
+
+.instance-control-bar-button:hover {
+    text-shadow: 0 1px rgba(0,0,0,0.3);
+    cursor: pointer;
+    border: 1px solid #979797;
+    -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+    background-color: #374f62;
+    color: #979797;
+}
+
+.instance-control-bar-button:focus {
+    outline: transparent none;
+    -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+    color: #979797;
+}
+
+.instance-control-bar-status {
+
+    margin: 10px 30px;
+    height: 50px;
+    width: 250px;
+    min-width: 200px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    background-color: #1D2933;
+    border-radius: 10px;
+
+}
+
+.instance-control-bar-status-title {
+    color: #A4AAAD;
+    font-size: 18px;
+}
+
+.instance-control-bar-status-text {
+    color: #3ba02d;
+    font-size: 16px;
+}
+
+.popup-content {
+    width: 30% !important;
+    min-width: 350px;
+}
+
+.script-selection-text {
+    color: black;
+}

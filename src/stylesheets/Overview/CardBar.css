@@ -1,0 +1,24 @@
+
+/*Overview card bar*/
+.overview-card-bar {
+
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+
+}
+
+.overview-card {
+    margin: 0 10px 0 10px;
+    width: calc(25% - 20px);
+    min-width: 260px;
+    height: 130px;
+}
+
+.overview-card-footer-text {
+    font-size: 15px;
+}
