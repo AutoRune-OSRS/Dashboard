@@ -1,3 +1,3 @@
 # AutoRune Dashboard
 
-AutoRune is an OldSchool RuneScape automation platform that is developed solely in Kotlin.The aim of this project is to produce well written software for educational purposes.
+The dashboard is a web app designed to communicate remotely with the AutoRune client. It creates a socket connection and can send commands and monitor the status of the client and the individual instances. It is created using JavaScript, React.js, Redux, and Thunk.
